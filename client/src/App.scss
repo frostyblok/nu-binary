@@ -1,0 +1,223 @@
+.container {width: 80%; margin: 0px auto;}
+section {float: left; width: 100%; padding: 50px 0px;}
+[class*="col-"] {float: left; padding: 15px;}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 { width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.signup-page {background: #f5f9f7; float: left; width: 100%;padding-top: 33px;padding-bottom: 218px;;}
+.login-page {background: #f5f9f7; float: left; width: 100%; padding-top: 84px;padding-bottom: 220px;}
+.sign-text {float: left;}
+.sign-style {color: green; font-size: 42px; margin: 0px; margin-top: 45px; margin-bottom: 5px;}
+.coll-red {color: #d04040;}
+.sign-style-min {color: #d04040; margin: 0px; font-weight: 200; text-transform: capitalize; font-family: 'Montserrat', sans-serif;}
+.login-card {float: right; width: 389px; box-shadow: 1px 2px 5px 3px #d2cbcb; padding-bottom: 30px; background: white;}
+.login-text {color: green; text-align: center;}
+.myform-login, .myform-signup {width: 100%; display: grid; justify-content: center;}
+.forgot-password {margin-bottom: 20px;}
+.forgot-password a, .signup-link a {color: #5b985b;}
+.input-field-bttn {margin: 10px 0px;}
+input[type="text"], input[type="password"] {
+	width: 341px;
+	height: 50px;
+	margin-bottom: 26px;
+	border: none;
+	background: #f1efef;
+	padding-left: 15px;
+	outline: none;
+}
+input[type="submit"] {
+	width: 359px;
+	height: 50px;
+	border: none;
+	color: white;
+	background: #39593e;
+	cursor: pointer;
+	font-size: 20px;
+}
+@media only screen and (min-width : 320px) and (max-width : 1069px)  {
+	.support-col {display: none;}
+	.signup-page {padding: 25px 0px !important;}
+	.login-card {width: 91%; display: grid; justify-content: center; padding-bottom: 6px; margin-top: 15px;}
+	.signup-card {padding: 0px 10px !important;}
+	.form {display: grid; width: 100%; justify-content: center;}
+	input[type="text"], input[type="password"] {
+		width: 198px;
+		height: 35px;
+		margin-bottom: 13px;
+		border: none;
+		background: whitesmoke;
+		outline: none;
+	}
+	input[type="submit"] {
+		width: 101px;
+		height: 26px;
+		margin: auto;
+		display: block;
+		font-size: 16px;
+	}
+	.forgot-password a, .signup-link a, .signup-link p {font-size: 14px;}
+	.forgot-password-btn {
+		border: none;
+		text-decoration: underline;
+		cursor: pointer;
+	}
+}
+header {
+	float: left;
+	width: 100%;
+	padding: 9px 0px;
+	box-shadow: 0px 5px 26px #9a9999;
+}
+.logo-name {display: flex; float: left;}
+/*.logo-name img {width: 70px; height: 63px;}*/
+#logo {font-size: 48px; color: #d04040; position: relative; top: 14px; margin-right: 15px;}
+.logo-name-style {color: #d04040;}
+.fast-color {color: green;}
+.login-signup, .logout {float: right; margin-top: 35px; margin-bottom: 8px;}  /********/
+.login-link, .signup-link, .logout-link, .admin-link {
+	margin-left: 15px;
+	padding: 8px 27px;
+	background: #39593e;
+	color: white;
+	border-radius: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	border: 1px solid #194c22;
+}
+.login-link:hover, .signup-link:hover, .admin-link:hover {
+	background-color: beige;
+	color: green
+
+}
+
+.effective {
+	background: #f4f9f4;
+	padding: 90px 0px;
+	background-size: 100%;
+}
+.effect-text-style {    color: white;
+	margin-bottom: 9px;}
+.effect-color {    color: #efef6f;}
+.effect-texxt-style {color: white; font-style: italic; margin-top: 1px; font-family: 'Indie Flower', cursive;}
+
+.work-model {color: #be1417;}
+.how-works {
+	text-align: center;
+	float: left;
+	width: 100%;
+}
+.works-text {margin-top: 0px; margin-bottom: 15px;;}
+.works-paradigm {
+	float: left;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.text-string {margin-right: 15%;}
+.calculations-begin {margin-right: 15%; padding-top: 24px;}
+.get-result {padding-top: 31px;}
+.paradigm-style {list-style: none; padding: 0px;}
+.paradigm-style li h4 {font-size: 20px; margin-bottom: 0px;}
+.paradigm-style li p {font-family: 'Indie Flower', cursive; font-size: 18px}
+#font-opac {font-size: 110px; opacity: 0.7;}
+
+#signup-link p {color: green;}
+#signup-link p a {color: #333369;}
+
+@media only screen and (min-width : 320px) and (max-width : 454px) {
+	.signup_link, .login_link {position: relative; bottom: 24px;}
+}
+@media only screen and (min-width : 320px) and (max-width : 741px) {
+	.logo-name-style {
+		font-size: 26px;
+	}
+	.works-paradigm {
+		width: 100%;
+		display: grid;
+		justify-content: center;
+	}
+	.order-food, .recieve-food, .enjoy-food {margin-right: 0px; padding-top: 0px; text-align: center;}
+}
+
+
+/*******  Calculator's page *************/
+.page-content {
+	height: 87vh;
+  	float: left;
+	.activity-card {
+	  height: 250px;
+	  margin-right: 20px;
+}
+.title {
+	font-size: 20px;
+	margin: 15px 0px 40px;
+}
+.date {
+	font-style: italic;
+	font-weight: lighter;
+	margin: 0px 0px 50px;
+}
+a {
+	font-size: 14px;
+}
+.create-icon {
+	position: fixed;
+	right: 20px;
+  	top: 150px;
+	font-size: 39px;
+}
+}
+.modals{
+  	display: flex;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.5);
+	overflow: auto;
+	animation: popup 1s;
+.modal-content{
+	background-color: whitesmoke;
+	margin: 15% auto;
+	height: 25%;
+	display: grid;
+	padding: 40px 25px;
+.modal-title {
+	margin: 0px;
+  	font-size: 24px;
+}
+.modals-body {
+  font-size: 45px;
+}
+.modal-footer button {
+  padding: 6px 9px;
+  font-size: 15px;
+  margin-right: 10px;
+}
+}
+.close {
+  	background: transparent;
+  	font-size: 25px;
+	position: relative;
+	bottom: 38px;
+	border: none;
+	left: 184px;
+	border: none;
+  	outline: none;
+}
+}
+@keyframes popup {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
