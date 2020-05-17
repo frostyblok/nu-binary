@@ -2,25 +2,30 @@
 
 ![](https://github.com/frostyblok/nu-binary/workflows/CI/badge.svg)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## How To Use
 
-Things you may want to cover:
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
-* Ruby version
+```bash
+# Clone this repository
+$ git clone https://github.com/frostyblok/nu-binary.git
 
-* System dependencies
+# Install dependencies
+$ bundle install
 
-* Configuration
+# Run the app
+$ rails s -p 8000
+```
 
-* Database creation
+## Tests
 
-* Database initialization
+* To run tests, navigate to the project's root directory
+* After installation, run `rspec spec`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## API endpoints
+```
+POST Request -> localhost:8000/auth/signup
+POST Request -> localhost:8000/auth/sigin
+POST Request -> localhost:8000/calculations
+GET Request ->  localhost:8000/calculations
