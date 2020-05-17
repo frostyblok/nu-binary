@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   post "/users/signin" => "users#signin"
 
   post '/calculations' => 'calculation#is_continuous'
+  get '/calculations' => 'calculation#user_calculations'
 end
