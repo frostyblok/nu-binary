@@ -1,5 +1,5 @@
 class JsonWebToken
-  HMAC_SECRET = NuBinary::Application.credentials.secret_key_base
+  HMAC_SECRET = Rails.application.credentials.secret_key_base
 
   def self.encode(payload, expires_in = 24.hours.from_now)
     payload[:exp] = expires_in.to_i
